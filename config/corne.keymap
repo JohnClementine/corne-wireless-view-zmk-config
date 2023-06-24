@@ -54,7 +54,7 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp GRAVE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5      &kp N6    &kp N7     &kp N8    &kp N9    &kp N0      &kp EQUAL
+&kp GRAVE  &mt EXCL NUMBER_1  &mt AT_SIGN NUMBER_2  &mt LS(HASH) NUMBER_3  &mt DOLLAR NUMBER_4  &mt PERCENT NUMBER_5    &mt CARET NUMBER_6  &mt AMPERSAND NUMBER_7  &mt ASTERISK NUMBER_8  &mt LEFT_PARENTHESIS NUMBER_9  &mt RIGHT_PARENTHESIS NUMBER_0  &kp EQUAL
 &kp RCTRL        &trans        &trans        &trans        &trans        &trans    &kp HOME    &kp UP    &kp END    &trans    &trans  &kp BACKSLASH
    &trans        &trans        &trans        &trans        &trans        &trans    &kp LEFT  &kp DOWN  &kp RIGHT  &kp LBRC  &kp RBRC         &trans
                                           &lt 3 TAB       &kp DEL        &trans      &trans   &kp DEL   &kp RALT
