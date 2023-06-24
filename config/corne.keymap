@@ -11,8 +11,11 @@
 #define DEFAULT 0
 #define LOWER   1
 #define RAISE   2
-
+&mt {
+    tapping-term-ms = <155>;
+};
 / {
+
     keymap {
         compatible = "zmk,keymap";
 
