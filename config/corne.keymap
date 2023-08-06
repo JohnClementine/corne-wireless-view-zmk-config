@@ -17,27 +17,6 @@
     flavor = "tap-preferred";
 };
 
-/ {
-    macros {
-        zed_em_kay: zed_em_kay {
-            label = "ZM_zed_em_kay";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <40>;
-            tap-ms = <40>;
-            bindings
-                = <&kp LSFT &kp B>
-                , <&kp E &kp S &kp T &kp B &kp U &kp Y>
-                , <&kp NUM_1>
-                , <&kp NUM_2>
-                , <&kp NUM_3>
-                , <&kp LSFT &kp NUM_1>  // For the "!"
-                , <&kp LSFT &kp NUM_2>  // For the "@"
-                , <&kp LSFT &kp NUM_3>  // For the "#"
-                ;
-        };
-    };
-};
 
 / {
     keymap {
@@ -93,7 +72,7 @@
 &bt BT_CLR  &kp F1  &kp F2  &kp F3        &kp F4           &kp F5             &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11
 &bt BT_NXT  &trans  &trans  &trans  &kp LEFT_ALT          &kp TAB    &kp C_VOLUME_UP  &trans  &trans  &trans   &trans  &kp F12
 &bt BT_PRV  &trans  &trans  &trans        &trans  &kp LC(LA(DEL))       &kp C_VOL_DN  &trans  &trans  &trans   &trans   &trans
-                            &trans        &zed_em_kay           &trans             &trans  &zed_em_kay  &trans
+                            &trans        &trans            &trans             &trans  &trans   &trans
             >;
         };
     };
