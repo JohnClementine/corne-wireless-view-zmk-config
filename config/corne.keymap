@@ -26,14 +26,18 @@
             wait-ms = <40>;
             tap-ms = <40>;
             bindings
-                = <&kp LSFT &kp B>
+                = <&macro_press &kp LSHFT>
+                , <<&macro_tap &kp B>
+                , <&macro_release &kp LSHFT>
                 , <&kp E &kp S &kp T &kp B &kp U &kp Y>
                 , <&kp NUM_1>
                 , <&kp NUM_2>
                 , <&kp NUM_3>
-                , <&kp LSFT &kp NUM_1>  // For the "!"
-                , <&kp LSFT &kp NUM_2>  // For the "@"
-                , <&kp LSFT &kp NUM_3>  // For the "#"
+                , <&macro_press &kp LSHFT>
+                , <&kp NUM_1>
+                , <&kp NUM_2>
+                , <&kp NUM_3>
+                , <&macro_release &kp LSHFT>
                 ;
         };
     };
